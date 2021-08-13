@@ -45,4 +45,60 @@
 //   }
 // }
 
-// # Returning Boolean values from functions
+// // # Returning Boolean values from functions
+
+// function isLess(a, b) {
+//   return a < b;
+// }
+// console.log(isLess(10, 15));
+
+// // # Build JS Objects
+
+// var myDog = {
+//   name: "Shepherd",
+//   legs: 4,
+//   tails: 1,
+// };
+
+// console.log(myDog);
+
+// # Accessing object properties with dot notation, bracket notation.
+
+// var myHat = {
+//   size: 12,
+//   color: "white",
+//   "fabric type": "cotton",
+// };
+
+// var hatValue = myHat.size; //accessing property of an object
+// console.log(hatValue);
+
+// var hatValue = myHat["fabric type"];
+// console.log(hatValue);
+
+// // # Accessing object properties with variables
+
+// var testObj = {
+//   12: "NY",
+//   24: "TX",
+//   36: "CA",
+// };
+
+// var stateNumber = 24;
+// var state = testObj[stateNumber];
+
+// console.log(state);
+
+// // # Adding & Deleting properties from an object
+
+// var myDog = {
+//   name: "Shepherd",
+//   legs: 4,
+//   tails: 1,
+// };
+
+// myDog.eyes = 2;
+// console.log(myDog);
+
+// delete myDog.legs;
+// console.log(myDog);
