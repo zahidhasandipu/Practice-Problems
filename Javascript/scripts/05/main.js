@@ -116,7 +116,6 @@
 
 // console.log(myConcat([1, 2], [3, 4, 5]));
 
-
 // # Wrtie higher order arrow functions (Need to practice more)
 
 // const realNumberArray = [4, 5.6, -9.8, 3.14, 43, 6, 8.34, -2];
@@ -134,7 +133,7 @@
 // //Higher order arrow functions
 
 // const increment = (function () {
-//   return function increment(number, value = 1) { 
+//   return function increment(number, value = 1) {
 //     return number + value;
 //   };
 // })();
