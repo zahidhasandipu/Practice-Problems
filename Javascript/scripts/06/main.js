@@ -33,3 +33,26 @@
 //   var x = 10;
 //   console.log(x);
 // }
+
+// # Window and this keyword
+
+// var a = 10;
+// function b() {
+//   var x = 7;
+// }
+
+// console.log(window.a);
+// console.log(a);
+// console.log(this.a);
+
+// # Scope chain and lexical environment
+
+// function a() {
+//   var b = 10;
+//   console.log();
+//   function c() {
+//     console.log(b);
+//   }
+// }
+
+// a();
