@@ -162,3 +162,36 @@
 // var myArray = [40, 50, 60];
 // myArray[0] = 45;
 // console.log(myArray);
+
+// ///////////////////////////////////////////////////////////////////////////////////////////////
+
+var myArray = [10, 20, 50, 5, 25];
+
+function ourArray(arr1) {
+  var myAvg = 0;
+  for (let i = 0; i < arr1.length; i++) {
+    myAvg += arr1[i] / arr1.length;
+  }
+  console.log(myAvg);
+}
+
+console.log(ourArray(myArray));
+
+function maxNum(arr1) {
+  var maxNum = 0;
+  for (let i = 0; i < arr1.length; i++) {
+    if (arr1[i] > maxNum) {
+      maxNum = arr1[i];
+    }
+  }
+  console.log(maxNum);
+}
+maxNum(myArray);
+
+var a = 2;
+var b = "2";
+console.log(a == b);
+
+console.log(c);
+
+var c = 5;
